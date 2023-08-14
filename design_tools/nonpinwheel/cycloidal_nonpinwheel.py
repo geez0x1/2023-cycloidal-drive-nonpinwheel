@@ -279,16 +279,18 @@ for theta in np.linspace(0, theta_end, n):
 
 
 # Plot thetas
-fig2 = pyplot.figure(figsize=(7,7))
-ax2 = pyplot.axes()
-ax2.plot(psi_1_list)
-ax2.set_title('Solutions for psi_1')
+# Enable to show solutions to the meshing equation
+# fig2 = pyplot.figure(figsize=(7,7))
+# ax2 = pyplot.axes()
+# ax2.plot(psi_1_list)
+# ax2.set_title('Solutions for psi_1')
 
 # Plot distances between points
-fig2 = pyplot.figure(figsize=(7,7))
-ax2 = pyplot.axes()
-ax2.plot(dist_list)
-ax2.set_title('Distances between points')
+# Enable to show distances between generated points (in mm)
+# fig2 = pyplot.figure(figsize=(7,7))
+# ax2 = pyplot.axes()
+# ax2.plot(dist_list)
+# ax2.set_title('Distances between points')
 
 # Display final state
 print("Final state:")
