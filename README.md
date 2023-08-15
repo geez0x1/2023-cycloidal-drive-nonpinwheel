@@ -1,4 +1,4 @@
-This repository contains Python code and CAD files to (re)create the cycloidal gearing designs, and experiments, from our paper
+This repository contains Python code and CAD files to (re)create the cycloidal gearing designs, and experiments, from our 2023 paper
 _"Experimental comparison of pinwheel and non-pinwheel designs of 3D-printed cycloidal gearing for robotics"_.
 
 Contents:
